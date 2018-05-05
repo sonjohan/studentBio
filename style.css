@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    font-size: 1.6em;
+    padding: 10px 0;
+}
+
+a{
+    color: red;
+}
+
+.name{
+    padding: 15px 0;
+    font-size: 1.2em;
+    color: brown;
+}
+
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.mainInfo{
+    width: 824px;
+    display: inline-flex;
+}
+
+#bio-image, #main-bio, #contact-info{
+    float: left;
+}
+
+#bio-image{
+    width: 200px;
+}
+
+#main-bio{
+    width: 65%;
+    padding: 0 20px;
+}
+
+#contact-info{
+    width: 35%;
+}
+
+ul{
+    padding:20px;
+}
